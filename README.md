@@ -1,4 +1,9 @@
-## Olá, sou o Anderson Andrade, desenvolvedor de sistemas mobile e web!
+## Olá, sou o Anderson!
+
+# Bem vindo ao meu perfil 👋
+
+Atualmente possuo conhecimentos em Fullstack com React Native, gosto de trabalho em conjunto, pois me anima bastante. Não quero somente crescer dentro da area da Tecnologia, mas também na area de comunicações, tentando aprender e sempre estar disposto a ajudar. O meu foco é não ficar parado e adquirir cadas vez mais experiência.
+
 <div align="center">
   <a href="https://github.com/AnderJunior">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AnderJunior&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
