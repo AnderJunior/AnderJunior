@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portal de Serviços - Clientes</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portal de Serviços</h1>
+      <nav>
+        <a href="admin.html">Área Administrativa</a>
+      </nav>
+    </header>
+    <main>
+      <section class="landing-hero">
+        <h2>Organize solicitações e documentos dos seus clientes em um só lugar</h2>
+        <p>
+          Consulte os serviços disponíveis e faça o pré-cadastro. Enviaremos um link seguro para que o cliente continue o processo de envio de documentos.
+        </p>
+      </section>
+      <section>
+        <div class="section-title">
+          <h2>Serviços Disponíveis</h2>
+          <p class="upload-status">Selecione um serviço para solicitar atendimento.</p>
+        </div>
+        <div class="landing-services" id="services-list"></div>
+      </section>
+      <section id="landing-feedback" aria-live="polite"></section>
+    </main>
+    <div id="modal-root"></div>
+    <script type="module" src="scripts/landing.js"></script>
+  </body>
+</html>

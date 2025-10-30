@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Administração - Portal de Clientes</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Administração do Portal</h1>
+      <nav>
+        <a href="index.html">Voltar à Landing Page</a>
+      </nav>
+    </header>
+    <main>
+      <div class="tab-bar" role="tablist">
+        <button class="tab-button active" data-tab="clients" role="tab">Clientes</button>
+        <button class="tab-button" data-tab="services" role="tab">Serviços</button>
+      </div>
+      <section id="tab-clients" class="tab-panel" role="tabpanel">
+        <div class="section-title">
+          <h2>Clientes</h2>
+          <button class="primary-button" id="new-client">Novo Cliente</button>
+        </div>
+        <div id="clients-empty" class="alert hidden">Nenhum cliente cadastrado ainda.</div>
+        <div id="clients-grid" class="card-grid"></div>
+      </section>
+      <section id="tab-services" class="tab-panel hidden" role="tabpanel" aria-hidden="true">
+        <div class="section-title">
+          <h2>Serviços</h2>
+          <button class="primary-button" id="new-service">Novo Serviço</button>
+        </div>
+        <div id="services-empty" class="alert hidden">Cadastre o primeiro serviço para habilitar novos clientes.</div>
+        <div id="services-grid" class="card-grid"></div>
+      </section>
+    </main>
+    <div id="modal-root"></div>
+    <script type="module" src="scripts/admin.js"></script>
+  </body>
+</html>
